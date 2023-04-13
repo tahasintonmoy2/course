@@ -1,0 +1,28 @@
+{
+  "name": "win-app",
+  "productName": "Win",
+  "version": "1.0.0",
+  "description": "Color picker desktop app",
+  "main": "src/index.js",
+  "author": "Tahasin",
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.1.0",
+    "@electron-forge/maker-deb": "^6.1.0",
+    "@electron-forge/maker-rpm": "^6.1.0",
+    "@electron-forge/maker-squirrel": "^6.1.0",
+    "@electron-forge/maker-zip": "^6.1.0",
+    "electron": "^23.2.0"
+  },
+  "dependencies": {
+    "electron-json-storage": "^4.6.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "request": "^2.88.2",
+    "semver": "^7.3.8"
+  },
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  }
+}
